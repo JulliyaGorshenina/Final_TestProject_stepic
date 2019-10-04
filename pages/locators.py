@@ -23,3 +23,9 @@ class ProductPageLocators():
     ADD_BUTTON = (By.ID, "add_to_basket_form")
     BASKET_NAME = (By.XPATH, "//div[@id='messages']/div[1]/div/strong")
     BASKET_PRICE = (By.XPATH, "//div[@id][1]//p[1]")
+    SUCCESS_MESSAGE = (By.XPATH, "//div[@id='messages']/div[1]/div")
+
+
+class BasePageLocators():
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+    LOGIN_LINK_INVALID = (By.CSS_SELECTOR, "#login_link_inc")
