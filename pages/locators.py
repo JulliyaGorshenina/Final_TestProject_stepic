@@ -15,3 +15,11 @@ class LoginPageLocators():
     REGISTER_PASSWORD = (By.ID, "id_registration-password1")
     REGISTER_CONFIRM_PASSWORD = (By.ID, "id_registration-password2")
     REGISTER_BUTTON = (By.NAME, "registration_submit")
+
+
+class ProductPageLocators():
+    BOOK_NAME = (By.CSS_SELECTOR, "div h1")
+    BOOK_PRICE = (By.CSS_SELECTOR, "[class='col-sm-6 product_main'] [class='price_color']")
+    ADD_BUTTON = (By.ID, "add_to_basket_form")
+    BASKET_NAME = (By.XPATH, "//div[@id='messages']/div[1]/div/strong")
+    BASKET_PRICE = (By.XPATH, "//div[@id][1]//p[1]")
